@@ -24,7 +24,7 @@ class Router extends AbstractRouter
 		    return 'index';//重定向到index路由
 		});
   		// TODO: Implement initialize() method.
-		$route->get('/index', '/Index/index');
+		$route->get('/index', '/Admin/Index/index');
 
 		// $route->get('/', function (Request $request, Response $response) {
 		//   $response->write('this router index');
