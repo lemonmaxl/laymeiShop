@@ -22,6 +22,15 @@ return [
             'max_wait_time'=>3
         ],
     ],
+    'MYSQL'  => [
+        'host'          => 'rm-bp1hjaz85743cec88xo.mysql.rds.aliyuncs.com',
+        'port'          => 3306,
+        'user'          => 'root',
+        'password'      => '5071024dongD',
+        'database'      => 'woohim',
+        'timeout'       => 5,
+        'charset'       => 'utf8mb4',
+    ],
     'TEMP_DIR' => null,
     'LOG_DIR' => null
 ];
