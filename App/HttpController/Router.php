@@ -16,15 +16,17 @@ class Router extends AbstractRouter
     {
     	$this->setGlobalMode(true);
     	$this->setMethodNotAllowCallBack(function (Request $request,Response $response){
+    		$response->withHeader('Content-type','application/json;charset=utf-8');
 		    $response->write('未找到处理方法');
 		    return false;//结束此次响应
 		});
 		$this->setRouterNotFoundCallBack(function (Request $request,Response $response){
+			$response->withHeader('Content-type','application/json;charset=utf-8');
 		    $response->write('未找到路由匹配');
-		    return 'index';//重定向到index路由
+		    return '/';//重定向到index路由
 		});
   		// TODO: Implement initialize() method.
-		$route->get('/index', '/Admin/Index/index');
+		$route->get('/', '/Admin/Index/index');
 
 		// $route->get('/', function (Request $request, Response $response) {
 		//   $response->write('this router index');

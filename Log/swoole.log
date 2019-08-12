@@ -1,0 +1,2 @@
+[2019-08-12 22:58:54 *12663.1]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Declaration of App\HttpController\Admin\Base::onRequest(App\HttpController\Admin\Request $request, App\HttpController\Admin\Response $response) must be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool in /var/www/laymeiShop/App/HttpController/Admin/Base.php on line 10
+[2019-08-12 22:58:54 $12651.0]	WARNING	swManager_check_exit_status: worker#1[pid=12663] abnormal exit, status=255, signal=0

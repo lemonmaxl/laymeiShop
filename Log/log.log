@@ -1,0 +1,4 @@
+[2019-08-12 22:41:25][DEBUG][ERROR] : [Call to undefined method App\HttpController\Router::response() at file:/var/www/laymeiShop/vendor/easyswoole/http/src/Dispatcher.php line:74]
+[2019-08-12 22:42:23][DEBUG][NOTICE] : [Non-static method EasySwoole\Http\Message\Message::withHeader() should not be called statically at file:/var/www/laymeiShop/App/HttpController/Router.php line:18]
+[2019-08-12 22:42:23][DEBUG][ERROR] : [Using $this when not in object context at file:/var/www/laymeiShop/vendor/easyswoole/http/src/Dispatcher.php line:74]
+[2019-08-12 22:58:54][DEBUG][ERROR] : [Declaration of App\HttpController\Admin\Base::onRequest(App\HttpController\Admin\Request $request, App\HttpController\Admin\Response $response) must be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool at file:/var/www/laymeiShop/App/HttpController/Admin/Base.php line:10]
