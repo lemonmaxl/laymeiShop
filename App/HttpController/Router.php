@@ -14,6 +14,7 @@ class Router extends AbstractRouter
 	
 	public function initialize(RouteCollector $route)
     {
+    	$this->setGlobalMode(true);
   		// TODO: Implement initialize() method.
 		$route->get('/', '/Index/index');
 
