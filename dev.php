@@ -31,6 +31,16 @@ return [
         'timeout'       => 5,
         'charset'       => 'utf8mb4',
     ],
+    'REDIS' => [
+        'host'          => '127.0.0.1',
+        'port'          => '6379',
+        'auth'          => '',
+        'POOL_MAX_NUM'  => '20',
+        'POOL_MIN_NUM'  => '5',
+        'POOL_TIME_OUT' => '0.1',
+    ],
+    'VIEW_TEMPLATE' => 'resources/views/',
+    'VIEW_TMP_TEMPLATE' => 'Temp/cache/views/',
     'TEMP_DIR' => null,
     'LOG_DIR' => null
 ];

@@ -1,0 +1,1 @@
+hello,{$user},时间{$time}

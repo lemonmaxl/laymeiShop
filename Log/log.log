@@ -2,3 +2,19 @@
 [2019-08-12 22:42:23][DEBUG][NOTICE] : [Non-static method EasySwoole\Http\Message\Message::withHeader() should not be called statically at file:/var/www/laymeiShop/App/HttpController/Router.php line:18]
 [2019-08-12 22:42:23][DEBUG][ERROR] : [Using $this when not in object context at file:/var/www/laymeiShop/vendor/easyswoole/http/src/Dispatcher.php line:74]
 [2019-08-12 22:58:54][DEBUG][ERROR] : [Declaration of App\HttpController\Admin\Base::onRequest(App\HttpController\Admin\Request $request, App\HttpController\Admin\Response $response) must be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool at file:/var/www/laymeiShop/App/HttpController/Admin/Base.php line:10]
+[2019-08-13 17:00:08][DEBUG][ERROR] : [Return value of EasySwoole\Template\Config::getRender() must be an instance of EasySwoole\Template\RenderInterface, null returned at file:/media/sf_www/laymeiShop/vendor/easyswoole/template/src/Config.php line:21]
+[2019-08-13 17:13:05][DEBUG][ERROR] : [Return value of EasySwoole\Template\Config::getRender() must be an instance of EasySwoole\Template\RenderInterface, null returned at file:/media/sf_www/laymeiShop/vendor/easyswoole/template/src/Config.php line:21]
+[2019-08-13 17:13:45][DEBUG][ERROR] : [Return value of EasySwoole\Template\Config::getRender() must be an instance of EasySwoole\Template\RenderInterface, null returned at file:/media/sf_www/laymeiShop/vendor/easyswoole/template/src/Config.php line:21]
+[2019-08-13 17:14:06][DEBUG][ERROR] : [Return value of EasySwoole\Template\Config::getRender() must be an instance of EasySwoole\Template\RenderInterface, null returned at file:/media/sf_www/laymeiShop/vendor/easyswoole/template/src/Config.php line:21]
+[2019-08-13 17:24:52][DEBUG][ERROR] : [Uncaught Error: Call to undefined function EasySwoole\EasySwoole\setRender() in /media/sf_www/laymeiShop/EasySwooleEvent.php:32
+Stack trace:
+#0 /media/sf_www/laymeiShop/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /media/sf_www/laymeiShop/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /media/sf_www/laymeiShop/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /media/sf_www/laymeiShop/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /media/sf_www/laymeiShop/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/media/sf_www/laymeiShop/EasySwooleEvent.php line:32]
+[2019-08-13 17:25:37][DEBUG][ERROR] : [Declaration of App\View::onException(App\Throwable $throwable): string must be compatible with EasySwoole\Template\RenderInterface::onException(Throwable $throwable): string at file:/media/sf_www/laymeiShop/App/View.php line:11]
+[2019-08-13 17:27:10][DEBUG][ERROR] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /media/sf_www/laymeiShop/App/HttpController/Admin/Index.php on line 15 at file:/media/sf_www/laymeiShop/vendor/easyswoole/http/src/Response.php line:76]
+[2019-08-13 17:28:00][DEBUG][ERROR] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /media/sf_www/laymeiShop/App/HttpController/Admin/Index.php on line 15 at file:/media/sf_www/laymeiShop/vendor/easyswoole/http/src/Response.php line:76]

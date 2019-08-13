@@ -12,6 +12,8 @@
 		"easyswoole/http-client": "^1.3",
 		"easyswoole/easy-whoops": "3.x",
 		"easyswoole/redis-pool": "^1.0",
-		"easyswoole/mysqli-pool": "^1.0"
+		"easyswoole/mysqli-pool": "^1.0",
+		"easyswoole/template": "^1.0",
+		"duncan3dc/blade": "^4.5"
     }
 }
